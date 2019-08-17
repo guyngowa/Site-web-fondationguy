@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ERREUR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+   .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  margin-top: 0;
+	  background-color: #000000;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+	
+  }
+ 
+
+ body{ 
+  margin:0;
+  padding:0;
+  background: url(background.png) no-repeat center fixed; 
+  -webkit-background-size: 1000px 620px; /* pour anciens Chrome et Safari */
+  background-size: 1000px 620px;
+  color:#f4511e;}
+  
+  /* version standardisée */
+  footer{
+	  color=#000000;
+  }
+  </style>
+</head>
+<body>
+<a class="logo" href="SITE WEB.html"><img src="logofondationguy.png" class="img-responsive"></a>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+	  <li><a href="SITE WEB.html"></a></li>
+	  <li><a href="SITE WEB.html"></a></li>
+	  <li><a href="SITE WEB.html"></a></li>
+	  <li><a href="SITE WEB.html"></a></li><li><a href="SITE WEB.html"></a></li>
+	  <li><a href="SITE WEB.html"></a></li>
+	  <li><a href="SITE WEB.html"></a></li>
+	  <li><a href="SITE WEB.html"></a></li>
+      <li><a href="index.php">ACCUEIL</a></li>
+	  <li><a href="PAGEDERREUR.php">FUTUR ELEVE</a></li>
+        <li><a href="PAGEDERREUR.php">ELEVE ACTUEL</a></li>
+        <li><a href="PAGEDERREUR.php">PROGRAMME D'ETUDE</a></li>
+		<li><a href="A PROPOS DE .php">A PROPOS DE F.G.M </a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+<!--<div class="container text-center">    
+  <h3>What We Do</h3><br>
+  <div class="row">
+   <div class="embed-responsive embed-responsive-4by3  col-sm-4" >
+   <iframe class="embed-responsive-item" src="https://youtu.be/RH3J6JIw8to"  height="50%"></iframe>
+</div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%"  alt="Image">
+      <p>Project 2</p>    
+    </div>
+    <div class="col-sm-4">
+      <div class="well">
+       <p>Some text..</p>
+      </div>
+      <div class="well">
+       <p>Some text..</p>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+<div  class="container-fluid" ">
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<h2><strong>Nous sommes désolés, cette partie du site n'est pas encore developée. Vous pouvez partir dans ACCUEIL OU DANS A PROPOS DE FGM</strong></h2>
+</div>
+ 
+
+  <footer class="container-fluid text-center">
+  <p> BP 8982 Douala, Cameroun, Bonamoussadi-Denver  +237 699 94 47 17  </p>
+   <p><h6>Copyrigth  G.M. NGOWA NZALI - Juillet 2017 </h6> </p>
+</footer>
+
+</body>
+</html>
